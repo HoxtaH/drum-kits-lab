@@ -36,8 +36,8 @@ Part 3 : Duplicating (Replicating what you did)
 
 3.2 - Similar to 2.1 you want to declare a function that tells javascript what to do with your newly stored audio Variables.  This time make two functions.  One called playSnareDrum the other playKickDrum.  If you are unsure as to how to do this reference 2.1 for further details.  Implementation is generally the same but 3 things change.  
 
-The name of the function which was highlighted in Purple.  This is where you want to insert the two function names mentioned above.
-The variable being given to cutSoundBiteOnKeyPress() function.  In part two of course we passed highHat Variable within the playHighHat function.  You want to do the exact same with the functions and their corresponding Variable names.  (i.e: snareDrum with playSnareDrum, kickDrum with playKickDrum)
-The Variable being used with .play().  Similar to what was mentioned above you want to use the Variable that corresponds with the function you are building.  (i.e: snareDrum.play() in playSnareDrum, kickDrum.play() in playKickDrum)
+	1) The name of the function which was highlighted in Purple.  This is where you want to insert the two function names mentioned above.
+	2) The variable being given to cutSoundBiteOnKeyPress() function.  In part two of course we passed highHat Variable within the playHighHat function.  You want to do the exact same with the functions and their corresponding Variable names.  (i.e: snareDrum with playSnareDrum, kickDrum with playKickDrum)
+	3) The Variable being used with .play().  Similar to what was mentioned above you want to use the Variable that corresponds with the function you are building.  (i.e: snareDrum.play() in playSnareDrum, kickDrum.play() in playKickDrum)
 
 3.3 - Run your code.  If all is well your drumkit should work!!!!  If it does then you should be proud.  If not.  Then its time to work on your error handling skills.  
