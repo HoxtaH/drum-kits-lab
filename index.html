@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="drumkit.css">
+    </head>
+    <body>
+<!-- Your Audio Files preloaded into our DOM-->
+<audio id="highHat">
+  <source src="./sounds/highhat.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="snareDrum">
+  <source src="./sounds/snaredrum.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<audio id="kickDrum">
+  <source src="./sounds/kickdrum.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+        
+        
+    <div class="jumbotron">
+            <h1 class="header-text">Computer Science Drumkit</h1>
+    </div>
+    <span class="imageKeys">
+        <!--    your S key image file    -->
+        <span>
+          <img src="keys/83.png" onclick="playSnareDrum()">  
+        </span>
+<!--    your H key image file    -->
+        <span>
+            <img src="keys/72.png" onclick="playHighHat()">
+        </span>
+<!--    your K key image file    -->
+        <span>
+            <img src="keys/75.png" onclick="playKickDrum()">
+        </span>
+    </span>
+        <div id="pacman"></div>
+        <div id="space-invader"></div>
+        <div id="the-egg"></div>
+        <div id="moon"></div>
+
+<script src="drumkit.js"></script>
+
+    </body>
+</html>
