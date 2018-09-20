@@ -20,10 +20,10 @@ Part 2: Functions
 
 2.1 - Our highHat Variable has been stored by fetching it from the  <audio></audio> tags ID attribute.  Which is located on our index.html document.  That is why we used the line of code: document.getElementById("highHat");  Now we need to tell Javascript what to do with that highHat Variable.  In your drumkit.js file their is already a pre built function called cutSoundBiteOnKeyPress.  We want use this as well as defining our play function.  To do this type the following below your highHat Variable declaration line of code : 
 
-function playHighHat() {
-	cutSoundBiteOnKeyPress(highHat);
-    	highHat.play(); 
-}
+            function playHighHat() {
+	            cutSoundBiteOnKeyPress(highHat);
+    	            highHat.play(); 
+            }
 
 2.2 - Run your code!  In your preview page you should be able to click the H key image or tap the H key on your keyboard.   You should hear a highat sound!.  But we still are not finished.  We need to perform the exact same actions with our snareDrum and kickDrum files.  Recreate the same steps performed for your highHat for both the snareDrum and kickDrum.  
 
