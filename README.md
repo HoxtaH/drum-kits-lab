@@ -1,5 +1,6 @@
 # drum-kits-lab
 Javascript building a 3 piece digital drum kit.
+## if you would like to see the original doc that is color coated and highlighted.  visit this link http://bit.ly/2PQLl8D
 
 DrumKit Lab 
 
